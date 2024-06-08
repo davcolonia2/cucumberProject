@@ -1,0 +1,13 @@
+{
+  "type": "service_account",
+  "project_id": "sound-mantra-425108-g1",
+  "private_key_id": "93705a609903c0b092a84bf899a2178b932ded03",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQCJYTb7kUjDCks0\nOfMUmTDizQr4pCi5oWhoQG6JSm4xiPxd1DHKGAGWp33ootyCKztkq7GWZk9irj2M\nQME6IcUq1TDyRbBkHwk0v/9tnQm7P1px2f+zS0s9kWETm5Nn/YLbobIXrzfMeAWN\noQfKHWk8neR8V7Q8m0sPPGdCnGLYuJ4Y4R3x1tVcihOozcTNDkFBvPA2CEah372k\nK3pDtz8W8/hS6ek8bCsTauxOZ1n/nd7NtGpR38xN6VGXYc3ri0nncLOlptkq+Les\nBjJ2Kovug3qdKLHDd4e1awHhGX71sF4EdNOOCpzqBSWcyAUArSt/4J+S8zcCdLQ9\n+DEI/smzAgMBAAECggEARJDyNcXx6HKrTUI9CgNZbGFFQAsCzn96UkoSQVCWRf/m\nYVhGj2TC6jPneiRK5Wb5akntRTEEHy7yxh0Ns9tmAnZMSycwHhCFcj//lvBhioTY\nuelBn3WNdImqR3SHMkhLtx3xerO3qEQhFWqRLjXWr+voPY0yhmtFn7GYohzWku56\nuSJg4BqdHHwJwNzLcRFslCZKbz2AdZYG8ehcl8KFVDJCdQN64FP/HZFkKF00+XLn\n/cz9nZ2IBdHwVYABzi0HRVQcENaeGrWVvWB1F2BiR0cdhiyyXbk6cd0p+R1BUPH1\nv1ofp7TziKHVBFq4hU/cpsAP7dxhaTFbkwb4eOmjYQKBgQC9DX7MXaltzGw2B+DK\nn7gq6lLJWEA7MFgymNbys/OIBozlX2OjZHR3aT2ERRsh/iOV+TCKtArOEL/nSGxl\nh8RX7a15jLWQ1egn+z5X4P7l6SKjJ8UAzJZRdXg8SP/1pbRF8oJvVoOPhFKm8Ka+\nGUAWSqwvAQYjXxRs3wjfq0qpIQKBgQC6B1NCrWb0b02R9IoYYGmzAt7F/3KO+Xey\nvZpkfX4jFlacHqsd5xje79M5XnVpJ6D1oBLxK6SCzgu1bGkvsX/MkPOQZn1bdyfD\nZX0MdUwhjoO6zLYokrQ9XANhgs1YoVW4pbYur2agGJOEN0pm8wGcKai8XLgj5ql+\nTESyY0d0UwKBgEV1wuO1ef3EgPGtHVN1MYZbB8XAbgERNyaH71nG8jBFL9lKneI3\nk28YNKj3dwubQ1nj74jWs62Yi9mfS2xWYLZptjYVk9Q+M4kVD4fcO+sfKEHH5+Lu\nSEBvp5iGvbx0gHK+slvT7ox5cqCxhKINxvUpxG+UsbunQGrr22fKmKjhAoGAfFyR\nSK3redU+oig8eXdashVlIDBZQUN8xb0DDdLnFEXGuK+37VGkysTBDEUdcKLRc+MD\nRr7KR7e/FBXZa8zZhsQQT6R0gUTzDCk4o692qahAYAyiahVI8QwmJnXvGSUhzULa\nu/L+RGCpnWXpE1G47dDbwLCrWTTGcmxCMI82IYkCgYEAsfckKpY0c82WjGHjntLK\nUoB4XVTxmzbU/MIfm+Mb0O2R6hCNSPDmE/+WsMBWDCW9ZW6wfuwLFHNU1h31lda2\nEs4F8WfoFzj4QQZIgWEXN2t8yrHsqO5QbcYpwgsRSO+s59m9mO0TNDEdz0JbLHLD\nLaBROWFkH7uwlf8PCgyW8IM=\n-----END PRIVATE KEY-----\n",
+  "client_email": "account1@sound-mantra-425108-g1.iam.gserviceaccount.com",
+  "client_id": "113011152670473775396",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/account1%40sound-mantra-425108-g1.iam.gserviceaccount.com",
+  "universe_domain": "googleapis.com"
+}

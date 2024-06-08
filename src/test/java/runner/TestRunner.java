@@ -5,8 +5,7 @@ import org.junit.runner.RunWith;
 
 
 @RunWith(Cucumber.class)
-@CucumberOptions(features = "src/test/resources/features",glue = "step_definitions",dryRun = false,tags = "@listofListsDataTable",plugin = {"html:/target/reports/cucumber-reports.html"})
+@CucumberOptions(features = "src/test/resources/features",glue = "step_definitions",dryRun = false,tags = "@window",plugin = {"html:/target/reports/cucumber-reports.html"})
 public class TestRunner {
-
 
 }

@@ -10,26 +10,28 @@ import io.cucumber.java.en.When;
 import io.cucumber.java.en.Then;
 import pages.HomePage;
 import pages.LoginPage;
+import utilities.driver;
 import utilities.driverFactory;
 
 
 public class LoginSteps {
 
    private static final Logger log = LoggerFactory.getLogger(LoginSteps.class);
-    private WebDriver driver = driverFactory.getDriver("chrome");
-    LoginPage lp= new LoginPage(driver);
-    HomePage hp = new HomePage(driver);
+  //  private WebDriver driver = driverFactory.getDriver("chrome");
+    LoginPage lp= new LoginPage();
+    HomePage hp = new HomePage();
 
     @Given("user navigates to orangeHRM login page")
     public void user_navigates_to_orange_hrm_login_page() {
         // Write code here that turns the phrase above into concrete actions
-driver.get("http://dev-hrm.yoll.io/");
+        driver.getDriver().get("http://dev-hrm.yoll.io/");
     }
     @When("user logs in with username {string} and password {string}")
     public void user_logs_in_with_valid_username_and_password(String username, String password) {
         // Write code here that turns the phrase above into concrete actions
     lp.usernameInputBox.sendKeys(username);
     lp.passwordInputBox.sendKeys(password);
+    user_clicks_login_button();
     }
     @When("user clicks login button")
     public void user_clicks_login_button() {
@@ -46,7 +48,7 @@ String expected = "Welcome Yoll";
 
 @Then("quit the driver")
 public void quitDriver(){
-        driver.quit();
+        driver.quitDriver();
 }
 
     @When("user logs in with invalid username and password")
